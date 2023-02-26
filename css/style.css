@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:wght@300&family=Oswald:wght@200;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Exo 2', sans-serif;
+    background: linear-gradient(to left, #014669, #036383, #2d98b3, #48b8f0, #525d81);
+}
+/*generales a todas las paginas*/
+.titulo{
+    font-weight: 500;
+    color: rgb(8, 7, 7);
+    text-align: left;
+    margin:10px 10px 0px 0px;
+}
+
+.navbar{
+    text-align:right;
+    text-transform: uppercase;
+    margin-right: 36px;
+}
+header{
+    height: 100px;
+    margin-bottom: 75px;
+    background-color:white;
+}
+.logo{
+    margin-left: 10px;
+    width: 30px;
+    height: 35px;
+}
+
+.btnPropio{
+    background-color: rgb(189, 189, 201);
+}
+.btnPropio:hover {
+    background-color: rgb(142, 142, 167);
+}
+
+ul{
+    display:flex;
+    justify-content:right;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    justify-content: flex-start;
+    margin-top: 35px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(8, 7, 7);
+    font-weight: lighter;
+    margin: 0px 0px 5px 30px;
+}
+
+
+.publicidad{
+    color:rgb(8, 7, 7);
+    font-weight: 450px;
+    margin:25px 50px;
+    text-align: center;
+}
+
+h2{
+    color: rgb(8, 7, 7);
+    font-weight: 450px;
+    margin:20px 50px;
+    text-align: center;
+}
+h4 {
+    margin: 5px 50px 15px;
+    color:rgb(8, 7, 7);
+    text-align: center;
+}
+p {
+    margin: 5px 50px;
+    color:rgb(8, 7, 7);
+}
+iframe{
+    margin: 20px 350px;
+}
+
+h3 {
+    color:rgb(8, 7, 7);
+    text-align:center;
+}
+.imgCarousel {
+    height: 350px;
+    width:400px;
+    object-fit: cover;
+    margin-bottom: 40px;
+}
+.piePagina{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px rgb(5, 5, 5) solid;
+    margin-top:300px;
+}
+/*tienda*/
+.contenedorComidas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 50px;
+}
+.contenedorComidas img{
+    width:200px;
+    height: 200px;
+    border: 10px 5px grey solid;
+    margin:auto;
+}
+.padreFlex {
+    background-color: linear-gradient(to left, #014669, #036383, #2d98b3, #48b8f0, #525d81);
+    border: 3px solid black;
+    width: 750px;
+    height: 100px;
+    border-radius: 4px;
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.hijoFlex {
+    background-color: rgb(68, 106, 211);
+    height: 100px;
+    width: 150px;
+    border: 1px dotted black;
+    border-radius: 5px;
+    text-align: left;
+    justify-content: left;
+}
+
+.hijoFlex p{
+    color:black;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+/*blog*/
+.contenedorClientes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caja1{
+        width: 400px;
+        height: 300px;
+        border: rgb(5, 4, 4);
+}
+.caja2{
+    width: 400px;
+    height: 300px;
+    border: rgb(5,4,4);
+}
+.caja3 {
+    width: 400px;
+    height: 300px;
+    border: rgb(5, 4, 4);
+}
+/*contacto*/
+.special{
+    border:none;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    color:rgb(8, 7, 7);
+}
+
+.whatsapp {
+display: flex;
+position: relative;
+}
+
+.wp{
+    width: 30px;
+    height: 30px;
+}
+
